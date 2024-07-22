@@ -1,0 +1,777 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.app{
+    
+    margin: auto;
+}
+
+/*-------------------------------------Navbar--------------------------------------*/
+
+
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand img {
+    height: 25px;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+.navbar .btn-outline-dark {
+    font-weight: 500;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 15.5);
+    border-top: 1.5px solid #333;
+    transition: all 0.4s ease;
+}
+
+.btn-primary {
+    background-color: #f16623;
+    border-color: #f16623;
+    font-weight: 500;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 15.5);
+    border-top: 1.5px solid #333;
+    transition: all 0.4s ease;
+}
+
+.collapse{
+    gap: 3vw;
+}
+
+.d-flex{
+    gap: 1vw;
+    margin-right: 20px;
+     
+}
+
+.navbar .btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.1); 
+}
+
+.btn-primary:hover {
+    background-color: #e74c3c; 
+    border-color: #e74c3c; 
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*-------------------------------------Header--------------------------------------*/
+
+/* Header section styles */
+.header-section {
+    background-color: #daf0eb;
+    padding: 3rem 0;
+}
+
+.header-section h1 {
+    font-size: 82px;
+    font-weight: 700;
+}
+
+.header-section .text-highlight {
+    color: #009387; 
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    
+}
+
+.header-section .lead {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+
+.btn1{
+    width: 261px;
+    height: 64px;
+}
+
+.star{
+    display: flex;
+    gap: 3vw;
+}
+.header-section .rating {
+    font-size: 16px;
+    color: #6c757d;
+    margin-top: 0.75rem;
+}
+
+.headeimag2{
+    position: absolute;
+    top: 24.5px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    
+}
+
+/*
+.primary-img {
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+.secondary-img {
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 2;
+}
+*/
+
+.text-highlight{
+    font-family: 'Caveat', cursive;
+    color: #080909; 
+}
+
+
+.header-section img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/*-------------------------------------Content1--------------------------------------*/
+
+.trusted-section {
+    background-color: #f9f9f9; 
+    padding: 3rem 0;
+}
+
+.trusted-section h2 {
+    font-size: 63px;
+    font-weight: 700;
+    color: #333; 
+}
+
+.trusted-section .highlight {
+    color: #009387; 
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    font-size: 63px;
+}
+
+.trusted-section .image-wrapper {
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.trusted-section .image-wrapper:hover{
+    transform: scale(1.2);
+}
+
+.trusted-section .large-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.trusted-section .small-img {
+    display: block;
+    margin: 0.5rem auto 0; 
+    width: 50%;
+}
+
+.trusted-section img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.trusted-section .scotch{
+    width: 50px;
+    
+}
+
+.col-6{
+    display: block;
+    display: inline-block;
+    
+    
+}
+/*
+.trusted-section .row {
+    display: flex; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    justify-content: center; 
+}
+
+.trusted-section .col-6 {
+    flex: 0 0 auto; 
+    margin: 0 0.5rem; 
+}
+
+.trusted-section .row::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.trusted-section .row::-webkit-scrollbar-thumb {
+    background-color: #00b3b3; 
+    border-radius: 4px; 
+}
+
+.trusted-section .row::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+}
+
+*/
+/*-------------------------------------Content2--------------------------------------*/
+
+.mb-4{
+    font-size: 63px;
+}
+
+
+.direct-mail-section {
+    background-color: #ecf5f3;
+}
+
+.direct-mail-section .highlight {
+    color: #009387; 
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    font-size: 63px;
+
+}
+
+
+
+.direct-mail-section .stat-bo {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+
+
+}
+
+.direct-mail-section .stat-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: -5px;
+    
+}
+
+.direct-mail-section .stat-description {
+    font-size: 14px;
+    color: #6c757d;
+    align-items: center;
+    width: 38%;
+   
+    
+    
+
+}
+
+.stat-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: -5px;
+}
+
+.bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.p1{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    bottom: 0;
+    font-size: 10px;
+}
+.p3{
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    bottom: -10px;
+    font-size: 10px;
+    
+}
+
+.s1{
+    font-size: 15px;
+    color: white;
+}
+.s2{
+    font-size: 15px;
+    color: black;
+}
+
+.bar {
+    width: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.direct-mail-bar {
+    height: 120px; /* Adjust height based on the statistic */
+    background-color: #ff6347;
+    width: 70px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 15.5);
+    border-top: 1.5px solid #333;
+    border-radius: 10px;
+   
+}
+
+.email-bar {
+    height: 50px; /* Adjust height based on the statistic */
+    background-color: #d5f3ec;
+    width: 80px;
+    margin-top: 70px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 15.5);
+    border-top: 1.5px solid #333;
+    border-radius: 10px;
+}
+
+/*-------------------------------------Content3--------------------------------------*/
+.PostPilot {
+    background-color: #fff1e8;
+    padding: 10px;
+}
+
+
+.main-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #333;
+}
+
+.highlight {
+    color: #009387; 
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.highlight1 {
+    color: #009387; 
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    font-size: 58px;
+}
+
+
+.sub-title {
+    font-size: 58px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 20px;
+    color: #58595D;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial3 {
+    position: relative;
+    padding: 1.5rem 2rem;
+    border: 2px solid #b8b3b3;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50px;
+    
+}
+.text-left{
+    width: 600px;
+}
+
+.testimonial .quote {
+    font-size: 16px;
+    font-style: italic;
+    color: #58595D;
+    position: relative;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.testimonial .author {
+    font-size: 14px;
+    font-weight: bold;
+    color: #A89B90;
+    margin-top: 1rem;
+}
+
+.testimonial-logo {
+    width: 32px;
+    height: 23px;
+    align-self: flex-end;
+}
+
+.testimonial-logo1 {
+    width: 50px;
+    align-self: flex-end;
+}
+
+.btn-primary {
+    background-color: #ff6347;
+    border-color: #ff6347;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+
+
+/*-------------------------------------Content4--------------------------------------*/
+.features-section {
+    background-color: #ffffff;
+}
+
+.features-section {
+    padding: 50px 0;
+}
+
+.box1 {
+    background-color: #FDF3EA;
+
+}
+.box2 {
+    background-color: #E0F8F2;
+}
+.box3 {
+    background-color: #EEECFF;
+}
+.box4 {
+    background-color: #D9F2F7;
+}
+.box5 {
+    background-color: #FAEDED;
+}
+.box6 {
+    background-color: #F1F1F1;
+}
+
+
+.features-section .card {
+    border: none;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 410px;
+    height: 506.53px;
+    
+    padding: 84.27px 40px 84.27px 40px;
+    gap: 0px;
+    border-radius: 13px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+.features-section .card:hover {
+    transform: scale(1.1);
+}
+
+.features-section .card-body {
+    padding: 20px;
+}
+
+.features-section .card-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #2E2F35;
+}
+
+.features-section .card-text {
+    font-size: 16px;
+    color: #58595D;
+}
+
+.features-section .card-img-top {
+   
+    object-fit: contain;
+    width: 308px;
+    height: 150px;
+    top: 84.27px;
+    left: 51px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.caveat-font {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    color: #009387;
+}
+.brand{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+/*-------------------------------------Content5--------------------------------------*/
+
+
+
+
+.container-fluid1 {
+    background-color: #E3F8F8;
+}
+
+.text-center h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.script-font {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+    color: #39BEB8;
+}
+
+.step-number {
+    font-size: 2rem;
+    color: #39BEB8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.step-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #7B7F82;
+    cursor: pointer;
+}
+
+.step-description {
+    font-size: 1rem;
+    color: #7B7F82;
+    display: none;
+}
+
+.step-description.active {
+    display: block;
+}
+
+.highlighted-step {
+    border-left: 3px solid #39BEB8;
+    padding-left: 15px;
+    margin-left: -15px;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------Content6--------------------------------------*/
+.postpilot-section {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+
+}
+
+.section-title {
+    font-size: 63px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    
+}
+
+.section-title .emoji {
+    color: #ff6347;
+}
+
+.section-title .dtc {
+    color: #009387; 
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    font-size: 63px;
+}
+
+.testimonial-container {
+    display: flex;
+    overflow-x: auto;
+    
+    padding-bottom: 20px;
+    overflow-x: scroll;
+    padding-left: 10px;
+    
+}
+.testimonial-container::-webkit-scrollbar{
+    display: none;
+}
+
+.testimonial {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    border: 2px solid #2E2F35;
+    border-radius: 10px;
+    
+}
+
+.testimonial-content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    scroll-snap-align: start;
+
+}
+
+.testimonial-content i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #010101;
+    
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-handle {
+    color: gray;
+    margin: 0;
+}
+
+.testimonial-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500;
+}
+
+
+/*-------------------------------------Content8--------------------------------------*/
+
+.postpilot-cta-section {
+    background-color: #FF6D2C;
+    color: white;
+    
+}
+
+.cta-title {
+    font-size: 81px;
+    margin-bottom: 20px;
+    font-family: 700;
+}
+
+.btn8 {
+    background-color: white;
+    color: #2E2F35;
+    border: none;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    width: 190px;
+    height: 64px;
+}
+
+.btn8:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+}
+
+.p8{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+.rating-text {
+    font-size: 16px;
+}
+
+.cta-disclaimer {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.img8 img{
+    width: 596.31px;
+    height: 600px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: -1.1px;
+    
+
+}
+.rating .fas{
+    color: #fff;
+}
+
+.text-muted1{
+    color: #fff;
+}
