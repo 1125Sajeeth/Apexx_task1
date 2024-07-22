@@ -10,6 +10,7 @@
         @include('content5')
         @include('content6')
         @include('content8')
+        @include('content89')
     </section>
 
 @endsection
