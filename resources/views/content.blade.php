@@ -9,8 +9,9 @@
         @include('content4')
         @include('content5')
         @include('content6')
+        @include('content7')
         @include('content8')
-        @include('content89')
+        @include('content9')
     </section>
 
 @endsection
