@@ -1,13 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
 
-.app{
-    
-    margin: auto;
-}
 
 /*-------------------------------------Navbar--------------------------------------*/
 
@@ -29,7 +20,7 @@
     font-weight: 500;
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 15.5);
     border-top: 1.5px solid #333;
-    transition: all 0.4s ease;
+    transition:  0.5s;
 }
 
 .btn-primary {
@@ -305,11 +296,12 @@
 }
 
 .p1{
-    position: absolute;
+    
     color: white;
     font-weight: 700;
     bottom: 0;
     font-size: 10px;
+    position: absolute;
 }
 .p3{
     position: absolute;
@@ -409,6 +401,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 50px;
+    
     
 }
 .text-left{
@@ -549,89 +542,88 @@
 
 /*-------------------------------------Content5--------------------------------------*/
 
-.content-section {
-    background-color: #E0F7FA;
-    padding: 50px 0;
-}
-
-
-
-.steps-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.step {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.step-number {
-    font-size: 24px;
-    color: #B2DFDB;
-    margin-right: 20px;
-    flex-shrink: 0;
-}
-
-.step-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.step-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #616161;
-}
-
-.step-description {
-    font-size: 16px;
-    color: #616161;
-    display: none;
-    margin-top: 5px;
-}
-
-.main-title {
-    font-size: 36px;
-    font-weight: bold;
-    color: #212121;
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    font-size: 24px;
-    color: #26A69A;
-}
-
-.content6{
-    align-items: center;
-    text-align: center;
-}
-
-.content6 .main-title{
+.fast-launch {
+    background-color: #E3F8F8;
+    min-height: 100vh;
     
+}
+
+.fast-launch h2 {
+
     font-size: 60px;
     font-weight: 700;
     line-height: 76px;
     letter-spacing: -2px;
-    text-align: center;
-    margin-bottom: 10px;
+    
 
 }
 
-.content6 .subtitle1{
+.subtitle {
     font-family: 'Caveat', cursive;
+    color: #009387;
     font-size: 60px;
     font-weight: 400;
     line-height: 76px;
-    letter-spacing: -2px;
-    text-align: center;
-    color: #009387;
-    padding-top: -30px;
+    margin-top: -20px;
+   
 
+
+
+}
+
+.steps-container {
+    position: relative;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    transition: opacity 0.3s ease;
+    gap: 40px;
+    
+}
+
+.step-number {
+    font-family: 'Caveat', cursive;
+    color: #009387;
+    margin-right: 1rem;
+    font-weight: bold;
+    flex-shrink: 0;
+    width: 30px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.step-content {
+    flex-grow: 1;
+    
+}
+
+.step-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #333;
+
+}
+
+.step-description {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.step:hover .step-description,
+.step:focus-within .step-description {
+    max-height: 100px;
+    opacity: 1;
+}
+
+.step:not(:hover):not(:focus-within) {
+    opacity: 0.7;
 }
 
 
@@ -820,6 +812,7 @@
     background-color: #EEECFF;
     padding: 80px;
     margin-bottom: -50px;
+
     
 
 }
@@ -848,10 +841,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+
 }
 
 .stat-item {
     text-align: left;
+
 }
 
 .stat-item h3 {
@@ -871,6 +866,7 @@
 
 }
 
+    
 .btn-outline-dark1 {
     border: 2px solid #343a40;
     padding: 10px 20px;
@@ -911,7 +907,14 @@
 }
 
 
-
+@media (max-width: 768px) {
+    .stats-row {
+        flex-direction: column;
+    }
+    .brand-logos{
+        flex-direction: column;
+    }
+}
 /*-------------------------------------Content8--------------------------------------*/
 
 .postpilot-cta-section {
@@ -1020,7 +1023,7 @@
 }
 
 .card1:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     
 }
 
@@ -1120,3 +1123,4 @@ hr {
 .col-md-3 i{
     color: red;
 }
+

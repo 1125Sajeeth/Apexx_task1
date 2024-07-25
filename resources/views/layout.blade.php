@@ -6,6 +6,7 @@
     <title>Apexx Task1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <script src="https://kit.fontawesome.com/c4bf1757aa.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
@@ -14,6 +15,7 @@
 <body>
     
     <div class="app">
+        
         @include('navbar')
         @include('header')
         
